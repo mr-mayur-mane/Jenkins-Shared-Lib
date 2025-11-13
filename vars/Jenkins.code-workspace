@@ -1,11 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "../../Jenkins"
-		},
-		{
-			"path": ".."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": ".."
+        }
+    ]
 }
