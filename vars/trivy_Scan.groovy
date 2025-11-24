@@ -2,7 +2,7 @@ def call(Map args = [:]) {
 
     // Required param
     if (!args.target) {
-        error "trivyScan: 'target' is required (example: myimage:latest OR ./src)"
+        error "trivyScan: 'target' is required"
     }
 
     // Parameters with defaults
