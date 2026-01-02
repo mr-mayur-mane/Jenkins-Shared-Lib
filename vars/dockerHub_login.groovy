@@ -1,6 +1,6 @@
 def call (){
-    withCredentails([usernamePassword(credentailId: 'DockerHuB', usernameVariable: 'DockerHub', passwordVariable: 'DockerHubPass')])
+    withCredentails([usernamePassword(credentailId: 'DockerHuB', usernameVariable: 'dockerHubUser', passwordVariable: 'dockerHubPass')])
     sh """
-    docker login -u ${env.DockerHub} -p ${env.DockerHubPass}
+    docker login -u ${env.dockerHubUser} -p ${env.dockerHubPass}
     """
 }
