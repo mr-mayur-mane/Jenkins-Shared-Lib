@@ -5,3 +5,4 @@ def call(String Project, String ImageTag, String dockerHubPass){
     sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPass}"
     sh "docker push ${env.dockerHubUser}/my-note-app:latest"
 
+}
